@@ -15,5 +15,12 @@ class Rectangle:
         length = float(input("Enter length: "))
         width = float(input("Enter width: "))
 
+        while length == 0 or width == 0:
+         print("Length and width cannot be 0!")
+         length = float(input("Enter length: "))
+         width = float(input("Enter width: "))
+
+
+
 
 
