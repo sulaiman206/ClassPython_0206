@@ -19,6 +19,11 @@ class Rectangle:
          print("Length and width cannot be 0!")
          length = float(input("Enter length: "))
          width = float(input("Enter width: "))
+rectangle = Rectangle(length, width)
+
+print(rectangle)
+print("Circumference:", rectangle.circumference(), "cm")
+print("Area:", rectangle.area(), "cm²")
 
 
 
